@@ -43,9 +43,9 @@ while True:
     elif ch == 5:
         print(mod(num1,num2))
     elif ch == 6:
-        print("Exiting.....")
+        print("\nExiting.....\n")
         break
     elif ch > 6 or ch < 0:
-        print("Invalid operator")
+        print("\nInvalid operator")
     else:
-        print("Invalid operator")
+        print("\nInvalid operator")
